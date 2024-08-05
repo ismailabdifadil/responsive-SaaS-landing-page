@@ -221,6 +221,9 @@ img {
 .footer a {
   color: #ccc;
 }
+.footer .logo {
+  color: #fff;
+}
 
 .footer i {
   font-size: 1.5rem;
@@ -440,13 +443,15 @@ img {
     max-width: 100%;
     text-align: center;
   }
-  .testimonials .testimonials-grid, .pricing .pricing-grid, .footer .footer-grid {
+  .testimonials .testimonials-grid,
+  .pricing .pricing-grid,
+  .footer .footer-grid {
     grid-template-columns: 1fr;
   }
-  .footer .card{
+  .footer .card {
     margin-right: 0;
   }
-  .footer .footer-grid > div{
+  .footer .footer-grid > div {
     text-align: center;
   }
 
@@ -462,7 +467,7 @@ img {
   }
 }
 @media (max-width: 500px) {
-  .text-xxl{
+  .text-xxl {
     font-size: 2rem;
   }
 }
